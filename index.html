@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>formulario com jquery</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Formulário</h1>
+      <form>
+        <label for="nome">NOME:</label>
+        <input
+          type="text"
+          id="nome"
+          name="nome"
+          placeholder=" Digite Seu Nome"
+          required
+        />
+
+        <label for="sobrenome">SOBRENOME:</label>
+        <input
+          type="text"
+          id="sobrenome"
+          name="sobrenome"
+          placeholder="Digite  Seu Sobrenome"
+          required
+        />
+
+        <label for="email">E-MAIL:</label>
+        <input
+          id="email"
+          type="email"
+          name="email"
+          placeholder="Digite Seu E-mail"
+          required
+        />
+
+        <label for="telefone">TELEFONE:</label>
+        <input
+          id="telefone"
+          type="tel"
+          name="telefone"
+          placeholder="Digite Seu Telefone"
+          required
+        />
+
+        <label for="cpf">CPF:</label>
+        <input
+          id="cpf"
+          type="text"
+          name="cpf"
+          placeholder="Digite Seu CPF"
+          required
+        />
+
+        <label for="enderesso">ENDEREÇO:</label>
+        <input
+          id="enderesso"
+          type="text"
+          name="enderesso"
+          placeholder="Digite Seu Endereço"
+          required
+        />
+
+        <label for="cep">CEP:</label>
+        <input
+          id="cep"
+          type="text"
+          name="cep"
+          placeholder="Digite Seu CEP"
+          required
+        />
+
+        <button type="submit" id="btn-enviar">ENVIAR</button>
+      </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="/js/jquery.mask.min.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
